@@ -16,7 +16,7 @@ type TemperatureData struct {
 
 const (
 	threshold     = 62.0 // Alert if temperature exceeds this in °C
-	listenAddress = "http://localhost:8080"
+	listenAddress = ":8080"
 )
 
 func main() {
